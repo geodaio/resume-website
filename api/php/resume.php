@@ -7,5 +7,7 @@
     <?php
       include 'nav.php';
     ?>
+
+    <h1>Resume</h1>
   </body>
 </html>

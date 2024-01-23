@@ -11,7 +11,7 @@
     <h1>Contact Me</h1>
     
     <p>Get in touch! Send an email using the form below, and I will get back to you as soon as I am available.</p>
-    <form>
+    <form method="post" action="sendmessage.php">
       <label for="fname">First Name</label>
       <input type="text" name="fname">
       </br>

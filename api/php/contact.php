@@ -21,9 +21,6 @@
       <label for="email">Email</label>
       <input type="email" name="email">
       </br>
-      <label for="pnumber">Phone Number</label>
-      <input type="text" name="pnumber">
-      </br>
       <label for="subject">Subject Line</label>
       <input type="text" name="subject">
       </br>

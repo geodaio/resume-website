@@ -1,4 +1,5 @@
 <?php
+    echo 'Mail Test successful';
     if(count(array_filter($_POST)) != count($_POST)){
         echo 'Please fill out all fields in the form!';
     }

@@ -30,6 +30,6 @@
       </section>
     </section>
     <h3>Download a PDF of this page below.</h3>
-    <button><a href="/files/resume.pdf" download="Abigail-Powell-Resume">Download</a></button>
+    <button><a href="/api/files/resume.pdf" download="Abigail-Powell-Resume">Download</a></button>
   </body>
 </html>

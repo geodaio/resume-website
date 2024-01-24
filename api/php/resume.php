@@ -29,5 +29,7 @@
         <h2>Professional Work Experience</h2>
       </section>
     </section>
+    <h3>Download a PDF of this page below.</h3>
+    <button><a href="/files/resume.pdf" download="Abigail-Powell-Resume">Download</a></button>
   </body>
 </html>

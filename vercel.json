@@ -5,10 +5,11 @@
     }
   },
   "routes": [
-    { "src": "(.*)/aboutme.php(.*)", "dest": "api/php/aboutme.php" },
-    { "src": "(.*)/contact.php(.*)", "dest": "api/php/contact.php" },
-    { "src": "(.*)/resume.php(.*)", "dest": "api/php/resume.php" },
-    { "src": "(.*)/work.php(.*)", "dest": "api/php/work.php" },
-    { "src": "/(.*)", "dest": "api/php/index.php" }
+    { "src": "(.*)/aboutme.php(.*)", "dest": "(.*)/aboutme.php" },
+    { "src": "(.*)/contact.php(.*)", "dest": "(.*)/contact.php" },
+    { "src": "(.*)/resume.php(.*)", "dest": "(.*)/resume.php" },
+    { "src": "(.*)/work.php(.*)", "dest": "(.*)/work.php" },
+    { "src": "(.*)/sendmessage.php(.*)", "dest": "(.*)/sendmessage.php" },
+    { "src": "/(.*)", "dest": "(.*)/index.php" }
   ]
 }

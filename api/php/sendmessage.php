@@ -5,7 +5,7 @@
     }
     else {
       $message = wordwrap($_POST['message'], 70);
-      $subject = $_POST[''];
+      $subject = $_POST['subject'];
       $address = $_POST['email'];
       mail('powheart26@proton.me', $subject, $message, 'From: ' . $address);
       echo 'Your message has been sent. Please wait 2-3 business days for a reply.'; 

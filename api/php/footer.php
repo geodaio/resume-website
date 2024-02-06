@@ -1,5 +1,5 @@
 <footer>
   <?php
-    include "contactinfo.php";
+    include 'contactinfo.php';
   ?>
 </footer>

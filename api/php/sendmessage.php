@@ -12,13 +12,8 @@
         'Reply-To' => $address,
         'X-Mailer' => 'PHP/' . phpversion()
       ];
-        echo $subject;
-        echo $message;
-        echo $address;
       
-      $mailWorked = mail('powheart26@proton.me', $subject, $message, $headers);
-
-      if ($mailWorked == true){
+      if (mail('powheart26@proton.me', $subject, $message, $headers)){
         echo 'Your message has been sent. Please wait 2-3 business days for a reply.'; 
       }
       else {

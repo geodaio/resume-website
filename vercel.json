@@ -7,6 +7,7 @@
   "routes": [
     { "src": "(.*)/aboutme.php(.*)", "dest": "api/php/aboutme.php" },
     { "src": "(.*)/contact.php(.*)", "dest": "api/php/contact.php" },
+    { "src": "(.*)/contactinfo.php(.*)", "dest": "api/php/contactinfo.php" },
     { "src": "(.*)/resume.php(.*)", "dest": "api/php/resume.php" },
     { "src": "(.*)/work.php(.*)", "dest": "api/php/work.php" },
     { "src": "(.*)/sendmessage.php(.*)", "dest": "api/php/sendmessage.php" },

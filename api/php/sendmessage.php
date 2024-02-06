@@ -9,7 +9,7 @@
       $address = $_POST['email'];
         echo $subject;
         echo $message;
-        echo $email;
+        echo $address;
       mail('powheart26@proton.me', $subject, $message, 'From: ' . $address);
       echo 'Your message has been sent. Please wait 2-3 business days for a reply.'; 
     }
